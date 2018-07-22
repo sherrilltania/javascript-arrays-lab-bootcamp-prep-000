@@ -28,7 +28,8 @@ function destructivelyRemoveFirstKitten(){
 
 function appendKitten(name){
     kittens = ["Milo", "Otis", "Garfield"]
-    console.log(kittens.push(name))
+    newKittens = [name]
+    console.log(kittens.concat(newKittens))
 }
 
 function removeLastKitten(){
