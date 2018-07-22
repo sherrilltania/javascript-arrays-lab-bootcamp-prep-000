@@ -33,7 +33,7 @@ function appendKitten(name){
   return newKittens
 }
 
-function removeLastKitten(){
+function prependKitten(){
   var newKittens = [...kittens]
   newKittens.unshift(name)
   return newKittens
