@@ -35,5 +35,5 @@ function appendKitten(name){
 
 function removeLastKitten(){
   kittens = ["Milo", "Otis", "Garfield"]
-  
+
 }
