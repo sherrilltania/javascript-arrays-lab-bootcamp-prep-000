@@ -27,10 +27,8 @@ function destructivelyRemoveFirstKitten(){
 }
 
 function appendKitten(name){
-  kittens = ["Milo", "Otis", "Garfield"]
-  newKittens = [...kittens]
-  newKittens.splice(3,0, name)
-  console.log(newKittens)
+    kittens = ["Milo", "Otis", "Garfield"]
+    console.log(kittens.push(name))
 }
 
 function removeLastKitten(){
