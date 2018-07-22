@@ -28,12 +28,12 @@ function destructivelyRemoveFirstKitten(){
 
 function appendKitten(name){
   kittens = ["Milo", "Otis", "Garfield"]
-  newArray = kittens.slice()
-  newArray.push(name)
-  console.log(newArray)
+  newKittens = [...kittens]
+  newKittens.push(name)
+  console.log(newKittens)
 }
 
 function removeLastKitten(){
   kittens = ["Milo", "Otis", "Garfield"]
-
+  
 }
