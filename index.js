@@ -33,7 +33,9 @@ function appendKitten(name){
   return newKittens
 }
 
-/*function removeLastKitten(){
-  kittens = ["Milo", "Otis", "Garfield"]
+function removeLastKitten(){
+  var newKittens = [...kittens]
+  newKittens.unshift(name)
+  return newKittens
 
-}*/
+}
