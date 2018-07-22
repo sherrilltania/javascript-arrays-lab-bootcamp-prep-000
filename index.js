@@ -27,8 +27,13 @@ function destructivelyRemoveFirstKitten(){
 }
 
 function appendKitten(name){
-  var kittens = ["Milo", "Otis", "Garfield"]
+  //var kittens = ["Milo", "Otis", "Garfield"]
   var newArray = kittens.slice()
   newArray.push(name)
   console.log(newArray)
+}
+
+function removeLastKitten(){
+  kittens = ["Milo", "Otis", "Garfield"]
+  
 }
