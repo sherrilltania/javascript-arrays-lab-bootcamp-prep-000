@@ -29,7 +29,7 @@ function destructivelyRemoveFirstKitten(){
 function appendKitten(name){
   kittens = ["Milo", "Otis", "Garfield"]
   newKittens = [...kittens]
-  newKittens.push(name)
+  newKittens.splice(3,0, name)
   console.log(newKittens)
 }
 
